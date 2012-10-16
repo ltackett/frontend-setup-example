@@ -1,0 +1,14 @@
+// Defaults is intended to be the highest scope. Use it wisely
+// ============================================================================
+
+.html, .body {
+  height: 100%;
+  width:  100%;
+}
+
+a {
+  color: #990000;
+  
+  &       { text-decoration: none; }
+  &:hover { text-decoration: underline; }
+}

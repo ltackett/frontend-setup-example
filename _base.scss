@@ -1,0 +1,25 @@
+// Compass Config - these must be set *before* importing compass.
+// ============================================================================
+
+$experimental-support-for-svg: true;
+$default-text-shadow-color:    rgba(#000, 0.3);
+$inline-block-alignment:       middle;
+
+// Import compass
+// ============================================================================
+
+@import 'compass';
+
+// Variables
+// ============================================================================
+
+$color-1: #333333;
+$color-2: #47fd8a;
+
+// Mixins
+// ============================================================================
+
+@mixin some-mixin($arg-1, $arg-2) {
+  width:  $arg-1;
+  height: $arg-2;
+}

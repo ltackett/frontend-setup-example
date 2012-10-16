@@ -12,3 +12,9 @@ a {
   &       { text-decoration: none; }
   &:hover { text-decoration: underline; }
 }
+
+// Include sprite folders
+// ============================================================================
+
+@import "icons/*.png";
+@import "logos/*.png";

@@ -1,19 +1,19 @@
-// Products
+// Products Controller
 // ============================================================================
 
-html.products-controller {
+html[data-controller=products] {
   
-  // Index
+  // Index Action
   // ============================================================================
 
-  html.index-action {
+  html[data-action=index] {
 
   }
 
-  // Show
+  // Show Action
   // ============================================================================
 
-  html.index-show {
+  html[data-action=show] {
   
   }
 }

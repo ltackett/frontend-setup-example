@@ -1,0 +1,13 @@
+// Button Base
+//
+// Styleguide 1.1.1
+// ===========================================================================
+
+.button-base {
+  @include inline-block;
+  @include border-radius(4px);
+  @include background(linear-gradient(#efefef, #dddddd));
+  padding:     10px 3px;
+  text-shadow: rgba(#fff, 0.8) 0 1px 0;
+  color:       #333;
+}
